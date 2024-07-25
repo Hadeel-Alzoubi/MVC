@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+@using (Html.BeginForm("Contact", "Home", FormMethod.Post))
+{
+    <!-- Wrapper container -->
+    <div class="container py-4">
+
+        <!-- Name input -->
+        <div class="mb-3">
+            <label class="form-label" for="name">Name</label>
+            <input class="form-control" id="name" type="text" placeholder="Name" value="name" name="yourname" />
+        </div>
+
+        <!-- Email address input -->
+        <div class="mb-3">
+            <label class="form-label" for="emailAddress">Email Address</label>
+            <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" value="email" name="youremail" />
+        </div>
+
+        <!-- Message input -->
+        <div class="mb-3">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" value="massege" name="yourmsg"></textarea>
+        </div>
+
+        <!-- Form submit button -->
+        <div class="d-grid">
+            <button class="btn btn-primary btn-lg" type="submit">Send</button>
+        </div>
+
+    </div>
+
+
+    <table>
+        <tr>
+            <td>
+                @ViewBag["yourname"]
+            </td>
+            <td>
+                @ViewBag["youremail"]
+            </td>
+            <td>
+                @ViewBag["yourmsg"]
+            </td>
+        </tr>
+    </table>
+}
+@*@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>
+                @ViewBag["yourname"]
+            </td>
+            <td>
+                @ViewBag["youremail"]
+            </td>
+            <td>
+                @ViewBag["yourmsg"]
+            </td>
+        </tr>
+    </table>
+}*@
