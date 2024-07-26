@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MVC_ProjectModelStoreContainer" CdmEntityContainer="MVC_ProjectEntities">
+    <EntitySetMapping Name="Test_Table">
+      <EntityTypeMapping TypeName="MVC_ProjectModel.Test_Table">
+        <MappingFragment StoreEntitySet="Test_Table">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Passwored" ColumnName="Passwored" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

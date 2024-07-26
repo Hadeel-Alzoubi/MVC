@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@model IEnumerable<MVC_Project.Test_Table>
+<main>
+    <table>
+        @foreach (Test_Table x in Model)
+        {
+           
+            <!-- On rows -->
+    <tr class="bg-primary">...</tr>
+    <tr class="bg-success">...</tr>
+    <tr class="bg-warning">...</tr>
+    <tr class="bg-danger">...</tr>
+
+
+            <!-- On cells (`td` or `th`) -->
+            <tr>
+                <td class="bg-primary">@x.Id</td>
+                <td class="bg-success">@x.Email</td>
+                <td class="bg-warning">@x.Name</td>
+                <td class="bg-danger">@x.Passwored</td>
+            </tr>
+        }
+    </table>
+</main>

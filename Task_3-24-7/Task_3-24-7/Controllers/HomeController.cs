@@ -33,9 +33,9 @@ namespace Task_3_24_7.Controllers
             string email = form["youremail"];
             string massege = form["yourmsg"];
 
-            ViewBag["yourname"]=name;
-            ViewBag["youremail"] =email;
-            ViewBag["yourmsg"] = massege;
+            ViewBag.yourname=name;
+            ViewBag.youremail =email;
+            ViewBag.yourmsg= massege;
             return View();
         }
         public ActionResult Login()
@@ -46,14 +46,14 @@ namespace Task_3_24_7.Controllers
 
 
         [HttpPost]
-        public ActionResult Login(string email, string password)
+        public ActionResult Login(string email, string passowred)
         {
 
 
-            if (email == "hadeelzoubi@gmail.com" && password == "123")
+            if (email == "hadeelzoubi@gmail.com" && passowred == "123")
             {
                 Session["UserName"] = "Hadeel";
-                return RedirectToAction("Home");
+                return RedirectToAction("Index");
             }
             else
             {
