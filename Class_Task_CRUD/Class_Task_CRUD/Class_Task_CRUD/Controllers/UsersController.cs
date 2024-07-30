@@ -61,17 +61,15 @@ namespace Class_Task_CRUD.Controllers
         }
 
         // GET: Users/Edit/5
-        public ActionResult Edit(int? id)
+        public ActionResult Edit()
         {
-            if (id == null)
+            User user = db.Users.Find(Session["id"]);
+            if (user.id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            User user = db.Users.Find(id);
-            if (user == null)
-            {
-                return HttpNotFound();
-            }
+            
+            
             return View(user);
         }
 
@@ -96,13 +94,12 @@ namespace Class_Task_CRUD.Controllers
                 user.img = fileName;
             }
 
-            if (ModelState.IsValid)
-            {
-                db.Entry(user).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            return View(user);
+
+            db.Entry(user).State = EntityState.Modified;
+            db.SaveChanges();
+            return RedirectToAction("Index");
+            
+           
         }
 
         // GET: Users/Delete/5
@@ -150,27 +147,26 @@ namespace Class_Task_CRUD.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult LogIn([Bind(Include = "email,pass")] User user)
         {
-            Session["LoggedUser"] = user.email;
+          
             //var em = ;
             var database = db.Users.ToList();
             if (ModelState.IsValid)
             {
                 foreach (var item in database)
                 {
-                    if (item.email == user.email)
+                    if (item.email == user.email && item.pass == user.pass)
                     {
+                        Session["LoggedUser"] = item.email;
+                        Session["id"] = item.id;
                         return RedirectToAction("Edit", new { id = item.id });
+
                     }
-                }
-                //var users = db.Users.Find(user.id);
-
-
-                return RedirectToAction("Edit");
-                // Authentication failed
+               }
+      
             }
             ModelState.AddModelError("", "Invalid email or password.");
 
-            return View(user);
+            return View();
         }
 
         public ActionResult LogOut()
@@ -179,24 +175,37 @@ namespace Class_Task_CRUD.Controllers
             return RedirectToAction("Index");
         }
 
-        public ActionResult ResetPass()
+        public ActionResult ResetPassord()
         {
+            User user = db.Users.Find(Session["id"]);
+            if (user.id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
 
-            
-            return View("ResetPassord");
+
+            return View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult ResetPass([Bind(Include = "pass,confirmPass")] User user)
+        public ActionResult ResetPassord([Bind(Include = "pass,confirmPass")] User user, string oldPass, string ConfirmPass)
         {
-            if (ModelState.IsValid)
+            int userId = (int)Session["id"];
+            var users = db.Users.Find(userId);
+
+            if (users.pass == oldPass)
             {
-                db.Entry(user).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("ResetPassord");
+                if (user.pass == ConfirmPass)
+                {
+                    users.pass = user.pass;
+                    db.Entry(users).State = EntityState.Modified;
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+
+                }
             }
-            return View(user);
+            return View();
         }
     }
 }

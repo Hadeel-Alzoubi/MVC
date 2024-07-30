@@ -9,6 +9,7 @@
     <Property Name="email" Type="varchar" MaxLength="30" />
     <Property Name="pass" Type="varchar" MaxLength="30" />
     <Property Name="confirmPass" Type="varchar" MaxLength="30" />
+    <Property Name="img" Type="varchar(max)" />
   </EntityType>
   <EntityContainer Name="UserInfoModelStoreContainer">
     <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />

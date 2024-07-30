@@ -9,6 +9,7 @@
           <ScalarProperty Name="email" ColumnName="email" />
           <ScalarProperty Name="pass" ColumnName="pass" />
           <ScalarProperty Name="confirmPass" ColumnName="confirmPass" />
+          <ScalarProperty Name="img" ColumnName="img" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
