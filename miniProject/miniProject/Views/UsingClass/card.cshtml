@@ -1,0 +1,38 @@
+﻿@model miniProject.Models.ProductProject
+@{
+    ViewBag.Title = "card";
+}
+
+<h2>card</h2>
+
+<div class="product-list">
+    @foreach (var product in Model)
+    {
+        <div class="card" style="width: 18rem;">
+            <img src="@product["image"]" class="card-img-top" alt="@product["name"]" />
+            <div class="card-body">
+                <h5 class="card-title">@product["name"]</h5>
+                <p class="card-text">$@product["price"]</p>
+            </div>
+            <input type="submit" class="btn btn-primary px-4 btn-lg" value="Buy" width="50px" height="50px" />
+            <br />
+            <input type="submit" class="btn btn-primary px-4 btn-lg" value="Add To Cart" width="50px" height="50px" />
+        </div>
+
+    }
+
+</div>
+
+<style>
+    .product-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .card {
+        border: 1px solid #ddd;
+        padding: 15px;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    }
+</style>

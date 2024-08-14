@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "AddProduct";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm())
+{
+    <div class="col">
+        <label>Product Name</label>
+        <input type="text" required maxlength="50" class="form-control" name="name">
+    </div>
+
+    <div class="col">
+        <label>Price</label>
+        <input type="text" required maxlength="50" class="form-control" name="Price">
+    </div>
+    <div class="mb-5 row">
+        <div class="col">
+            <label for="email_addr">Image</label>
+            <input type="text" class="form-control" name="image">
+        </div>
+
+    </div>
+    <input type="submit" class="btn btn-primary px-4 btn-lg" value="Add" />
+}

@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Product List";
+    var product = (List<Dictionary<string, string>>)ViewData.Model;
+}
+
+<h2>Product List</h2>
+
+<div class="product-list">
+    @foreach (var o in product)
+    {
+        <div class="card" style="width: 18rem;">
+            <img src="@o["image"]" class="card-img-top" alt="@o["name"]" />
+            <div class="card-body">
+                <h5 class="card-title">@o["name"]</h5>
+                <p class="card-text">$@o["price"]</p>
+            </div>
+            <input type="submit" class="btn btn-primary px-4 btn-lg" value="Buy" width="50px" height="50px" />
+            <br />
+            <input type="submit" class="btn btn-primary px-4 btn-lg" value="Add To Cart" width="50px" height="50px" />
+        </div>
+    
+    }
+
+</div>
+
+<style>
+    .product-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .card {
+        border: 1px solid #ddd;
+        padding: 15px;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    }
+</style>

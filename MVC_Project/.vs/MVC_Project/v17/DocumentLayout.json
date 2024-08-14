@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\MVC\\MVC_Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D69F6899-53ED-46C8-B0B5-A89A783DB87E}|MVC_Project\\MVC_Project.csproj|C:\\Users\\Orange\\Desktop\\MVC\\MVC_Project\\mvc_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D69F6899-53ED-46C8-B0B5-A89A783DB87E}|MVC_Project\\MVC_Project.csproj|solutionrelative:mvc_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D69F6899-53ED-46C8-B0B5-A89A783DB87E}|MVC_Project\\MVC_Project.csproj|c:\\users\\orange\\desktop\\mvc\\mvc_project\\mvc_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D69F6899-53ED-46C8-B0B5-A89A783DB87E}|MVC_Project\\MVC_Project.csproj|solutionrelative:mvc_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D69F6899-53ED-46C8-B0B5-A89A783DB87E}|MVC_Project\\MVC_Project.csproj|c:\\users\\orange\\desktop\\mvc\\mvc_project\\mvc_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D69F6899-53ED-46C8-B0B5-A89A783DB87E}|MVC_Project\\MVC_Project.csproj|solutionrelative:mvc_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D69F6899-53ED-46C8-B0B5-A89A783DB87E}|MVC_Project\\MVC_Project.csproj|c:\\users\\orange\\desktop\\mvc\\mvc_project\\mvc_project\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{D69F6899-53ED-46C8-B0B5-A89A783DB87E}|MVC_Project\\MVC_Project.csproj|C:\\Users\\Orange\\Desktop\\MVC\\MVC_Project\\mvc_project\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{D69F6899-53ED-46C8-B0B5-A89A783DB87E}|MVC_Project\\MVC_Project.csproj|solutionrelative:mvc_project\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +30,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MVC_Project\\MVC_Project\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "MVC_Project\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC\\MVC_Project\\MVC_Project\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "MVC_Project\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-25T10:17:08.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MVC_Project\\MVC_Project\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MVC_Project\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC\\MVC_Project\\MVC_Project\\Controllers\\HomeController.cs",
               "RelativeToolTip": "MVC_Project\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAABDAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBMAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T09:34:16.179Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC\\MVC_Project\\MVC_Project\\Model1.edmx [Diagram1]",
               "RelativeToolTip": "MVC_Project\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-07-25T09:31:20.914Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2024-07-25T09:31:20.914Z"
             }
           ]
         }
