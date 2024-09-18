@@ -24,6 +24,7 @@ namespace school_system.Models
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             // Prevent table names from being pluralized (optional)
+            // احذف الجمع و اسقطه على الداتا بيز
             modelBuilder.Conventions.Remove<System.Data.Entity.ModelConfiguration.Conventions.PluralizingTableNameConvention>();
 
             base.OnModelCreating(modelBuilder);
