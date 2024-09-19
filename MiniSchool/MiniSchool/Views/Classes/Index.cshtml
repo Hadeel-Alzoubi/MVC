@@ -1,0 +1,47 @@
+﻿@model IEnumerable<MiniSchool.Models.Classes>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <h2>Classes List</h2>
+
+    <p>
+        @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary mb-3" })
+    </p>
+
+    <ul class="responsive-table">
+        <li class="table-header">
+            <div class="col col-1">Id</div>
+            <div class="col col-2">Class Name</div>
+        </li>
+
+        @foreach (var item in Model)
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Class Name</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                 
+                        <tr>
+                            <td data-label="Id">@item.ClassId</td>
+                            <td data-label="Class Name">@item.ClassName</td>
+                            <td data-label="Actions">
+                                @Html.ActionLink("Edit", "Edit", new { id = item.ClassId }, new { @class = "btn btn-sm" }) |
+                                @Html.ActionLink("Details", "Details", new { id = item.ClassId }, new { @class = "btn btn-sm" }) |
+                                @Html.ActionLink("Delete", "Delete", new { id = item.ClassId }, new { @class = "btn btn-sm" })
+                            </td>
+                        </tr>
+                   
+                </tbody>
+            </table>
+
+        }
+    </ul>
+</div>
