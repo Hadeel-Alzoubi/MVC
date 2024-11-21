@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA721CFA-EA60-4464-B483-AE9628D5DE7D}|MiniSchool\\MiniSchool.csproj|C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\minischool\\views\\subjects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{DA721CFA-EA60-4464-B483-AE9628D5DE7D}|MiniSchool\\MiniSchool.csproj|C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\minischool\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA721CFA-EA60-4464-B483-AE9628D5DE7D}|MiniSchool\\MiniSchool.csproj|solutionrelative:minischool\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA721CFA-EA60-4464-B483-AE9628D5DE7D}|MiniSchool\\MiniSchool.csproj|C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\minischool\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA721CFA-EA60-4464-B483-AE9628D5DE7D}|MiniSchool\\MiniSchool.csproj|solutionrelative:minischool\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA721CFA-EA60-4464-B483-AE9628D5DE7D}|MiniSchool\\MiniSchool.csproj|c:\\users\\orange\\desktop\\mvc\\minischool\\minischool\\views\\subjects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DA721CFA-EA60-4464-B483-AE9628D5DE7D}|MiniSchool\\MiniSchool.csproj|solutionrelative:minischool\\views\\subjects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -47,20 +55,12 @@
       "RelativeMoniker": "D:0:0:{DA721CFA-EA60-4464-B483-AE9628D5DE7D}|MiniSchool\\MiniSchool.csproj|solutionrelative:minischool\\views\\assignments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA721CFA-EA60-4464-B483-AE9628D5DE7D}|MiniSchool\\MiniSchool.csproj|C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\minischool\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DA721CFA-EA60-4464-B483-AE9628D5DE7D}|MiniSchool\\MiniSchool.csproj|solutionrelative:minischool\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DA721CFA-EA60-4464-B483-AE9628D5DE7D}|MiniSchool\\MiniSchool.csproj|C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\minischool\\controllers\\assignmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA721CFA-EA60-4464-B483-AE9628D5DE7D}|MiniSchool\\MiniSchool.csproj|solutionrelative:minischool\\controllers\\assignmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA721CFA-EA60-4464-B483-AE9628D5DE7D}|MiniSchool\\MiniSchool.csproj|C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\minischool\\controllers\\minishcoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA721CFA-EA60-4464-B483-AE9628D5DE7D}|MiniSchool\\MiniSchool.csproj|solutionrelative:minischool\\controllers\\minishcoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA721CFA-EA60-4464-B483-AE9628D5DE7D}|MiniSchool\\MiniSchool.csproj|C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\minischool\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA721CFA-EA60-4464-B483-AE9628D5DE7D}|MiniSchool\\MiniSchool.csproj|solutionrelative:minischool\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA721CFA-EA60-4464-B483-AE9628D5DE7D}|MiniSchool\\MiniSchool.csproj|C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\minischool\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -210,45 +210,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Assignments\\Index.cshtml",
-              "RelativeDocumentMoniker": "MiniSchool\\Views\\Assignments\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Assignments\\Index.cshtml",
-              "RelativeToolTip": "MiniSchool\\Views\\Assignments\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACwAAABmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T17:00:06.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Classes\\Index.cshtml",
-              "RelativeDocumentMoniker": "MiniSchool\\Views\\Classes\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Classes\\Index.cshtml",
-              "RelativeToolTip": "MiniSchool\\Views\\Classes\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T16:34:33.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\MiniShcool\\Index.cshtml",
-              "RelativeDocumentMoniker": "MiniSchool\\Views\\MiniShcool\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\MiniShcool\\Index.cshtml",
-              "RelativeToolTip": "MiniSchool\\Views\\MiniShcool\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T14:18:45.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 15,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Controllers\\LoginController.cs",
@@ -261,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Assignments\\Edit.cshtml",
               "RelativeDocumentMoniker": "MiniSchool\\Views\\Assignments\\Edit.cshtml",
@@ -269,12 +230,11 @@
               "RelativeToolTip": "MiniSchool\\Views\\Assignments\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T17:01:24.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T17:01:24.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Assignments\\Create.cshtml",
               "RelativeDocumentMoniker": "MiniSchool\\Views\\Assignments\\Create.cshtml",
@@ -282,12 +242,11 @@
               "RelativeToolTip": "MiniSchool\\Views\\Assignments\\Create.cshtml",
               "ViewState": "AQIAACIAAAAAAAAAAAAqwDcAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T17:03:52.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T17:03:52.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Classes\\Create.cshtml",
               "RelativeDocumentMoniker": "MiniSchool\\Views\\Classes\\Create.cshtml",
@@ -295,12 +254,11 @@
               "RelativeToolTip": "MiniSchool\\Views\\Classes\\Create.cshtml",
               "ViewState": "AQIAAE4AAAAAAAAAAAAwwHEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T16:45:27.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T16:45:27.77Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Students\\Create.cshtml",
               "RelativeDocumentMoniker": "MiniSchool\\Views\\Students\\Create.cshtml",
@@ -308,51 +266,11 @@
               "RelativeToolTip": "MiniSchool\\Views\\Students\\Create.cshtml",
               "ViewState": "AQIAADoAAAAAAAAAAAAqwE8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T17:14:07.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T17:14:07.665Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Subjects\\Create.cshtml",
-              "RelativeDocumentMoniker": "MiniSchool\\Views\\Subjects\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Subjects\\Create.cshtml",
-              "RelativeToolTip": "MiniSchool\\Views\\Subjects\\Create.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAHEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T14:12:22.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "MiniSchool\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "MiniSchool\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T13:52:04.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Students\\Index.cshtml",
-              "RelativeDocumentMoniker": "MiniSchool\\Views\\Students\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Students\\Index.cshtml",
-              "RelativeToolTip": "MiniSchool\\Views\\Students\\Index.cshtml",
-              "ViewState": "AQIAADIAAAAAAAAAAAAcwDIAAABmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T16:54:14.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Login\\Login.cshtml",
               "RelativeDocumentMoniker": "MiniSchool\\Views\\Login\\Login.cshtml",
@@ -365,7 +283,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Classes\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiniSchool\\Views\\Classes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Classes\\Index.cshtml",
+              "RelativeToolTip": "MiniSchool\\Views\\Classes\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T16:34:33.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Subjects\\Create.cshtml",
+              "RelativeDocumentMoniker": "MiniSchool\\Views\\Subjects\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Subjects\\Create.cshtml",
+              "RelativeToolTip": "MiniSchool\\Views\\Subjects\\Create.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAHEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T14:12:22.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "MiniSchool\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "MiniSchool\\Migrations\\Configuration.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAvwA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T13:24:00.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\MiniShcool\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiniSchool\\Views\\MiniShcool\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\MiniShcool\\Index.cshtml",
+              "RelativeToolTip": "MiniSchool\\Views\\MiniShcool\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T14:18:45.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Assignments\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiniSchool\\Views\\Assignments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Assignments\\Index.cshtml",
+              "RelativeToolTip": "MiniSchool\\Views\\Assignments\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACwAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T17:00:06.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiniSchool\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MiniSchool\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T13:52:04.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiniSchool\\Views\\Students\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Students\\Index.cshtml",
+              "RelativeToolTip": "MiniSchool\\Views\\Students\\Index.cshtml",
+              "ViewState": "AQIAADIAAAAAAAAAAAAcwDIAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T16:54:14.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Views\\Subjects\\Index.cshtml",
               "RelativeDocumentMoniker": "MiniSchool\\Views\\Subjects\\Index.cshtml",
@@ -373,24 +377,11 @@
               "RelativeToolTip": "MiniSchool\\Views\\Subjects\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAHsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T14:03:48.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T14:03:48.194Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "MiniSchool\\Migrations\\Configuration.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "MiniSchool\\Migrations\\Configuration.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAvwA8AAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T13:24:00.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "MiniShcoolController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Controllers\\MiniShcoolController.cs",
               "RelativeDocumentMoniker": "MiniSchool\\Controllers\\MiniShcoolController.cs",
@@ -402,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AssignmentsController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC\\MiniSchool\\MiniSchool\\Controllers\\AssignmentsController.cs",
               "RelativeDocumentMoniker": "MiniSchool\\Controllers\\AssignmentsController.cs",
@@ -410,8 +401,7 @@
               "RelativeToolTip": "MiniSchool\\Controllers\\AssignmentsController.cs",
               "ViewState": "AQIAACcAAAAAAAAAAAAgwEIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T17:00:00.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T17:00:00.272Z"
             },
             {
               "$type": "Document",
